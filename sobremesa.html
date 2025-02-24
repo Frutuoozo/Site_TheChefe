@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="categoria.css">
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Categoria - Sobremesa</title>
+</head>
+<body>
+    <!-- cabeçalho -->
+    <header class="header">
+        <div class="header-container">
+            <img src="../images/logo-the-chef.png" alt="">
+                <div class="menu-desktop">
+                    <ul>
+                        <li><a href="../home.html" title="Home">Home</a></li>
+                        <li><a href="#contato" title="Contato">Contato</a></li>
+                    </ul>
+                </div>
+            <div class="barra-pesquisa">
+                <input type="text" placeholder="O que você busca?">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+            </div>
+        </div>
+
+        <!--Menu Mobile-->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">☰</label>
+        <nav class="menu">
+            <ul class="menu-lista">
+                <li><a href="home.html" title="pagina home">Home</a></li>
+                <li><a href="nordestina.html" title="nordestina">Nordestina</a></li>
+                <li><a href="sobremesa.html" title="sobremesa">Sobremesa</a></li>
+                <li><a href="gardemanger.html" title="gadomanger">Garde Manger</a></li>
+                <li><a href="massas.html" title="massas">Massas</a></li>
+                <li><a href="vegetariano.html" title="vegetariano">Vegetariano</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <!-- categorias sobremesa -->
+
+    <section class="categorias" id="categoria">
+        <div class="categorias-box">
+            <a href="nordestina.html" title="Nordestina">
+                <div class="box">
+                    <span class="material-symbols-outlined">
+                        skillet
+                    </span>
+                    <h3>NORDESTINA</h3>
+                </div>
+            </a>
+
+            <a href="gardemanger.html" title="Garde Manger">
+                <div class="box">
+                    <span class="material-symbols-outlined">
+                        bakery_dining
+                    </span>
+                    <h3>GARDE MANGER</h3>
+                </div>
+            </a>
+
+            <a href="massas.html" title="Massas">
+                <div class="box">
+                    <span class="material-symbols-outlined">
+                        local_pizza
+                    </span>
+                    <h3>MASSAS</h3>
+                </div>
+            </a>
+
+            <a href="vegetariano.html" title="Vegetariano">
+                <div class="box">
+                    <span class="material-symbols-outlined">
+                        dinner_dining
+                    </span>
+                    <h3>VEGETARIANO</h3>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- secção 1 (imagem e descrição) -->
+    <section class="categoria-banner">
+        <div class="categoria-img">
+            <img src="images/imagens-categorias-sobremesa.png" alt="" class="img-nordestina">
+        </div>
+        <div class="categoria-text">
+            <h2>Sobremesa</h2>
+            <p>Sobremesa é a última parte de uma refeição, geralmente doce e servida após o prato principal. É uma tradição em muitas culturas, oferecendo um toque final de sabor e satisfação. Sobremesas podem variar de simples, como frutas frescas, a elaboradas, como bolos e tortas.</p>
+        </div>
+    </section>
+
+    <!-- sobremesas cards -->
+    <section class="receitas">
+        <h2>Receitas recomendadas</h2>
+
+        <div class="receitas-card">
+            <div class="card">
+                <a class="linkNormal" href="receita/flan.html" title="Flan">
+                    <img src="images/receitas/flan 1.png" alt="">
+                    <div class="descricao">
+                        <h3>Flan</h3>
+                        <p>É um tipo de pudim feito com ovos, leite e açúcar, geralmente aromatizado com baunilha.  </p>
+                        <div class="btn">
+                            <a href="receita/flan.html" class="btn-acaraje">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/moussedechocolate.html" title="Mousse de Chocolate">
+                    <div class="imagem-card">
+                        <img src="images/receitas/mousse de chocolate.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Mousse de chocolate</h3>
+                        <p>é uma sobremesa clássica e deliciosa, com textura cremosa e aerada.
+                            È uma sobremesa versátil e pode ser preparada de diversas maneiras, com diferentes tipos de
+                            chocolate e ingredientes adicionais.</p>
+                        <div class="btn">
+                            <a href="receita/moussedechocolate.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/tortadequeijo.html" title="Torta de Queijo">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Torta de queijo 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Torta de queijo</h3>
+                        <p>Em geral, ela é feita com uma base de queijo, como cream cheese, ricota ou queijo cottage, misturado com ovos e açúcar. A mistura é então despejada sobre uma crosta de massa e assada até que a torta esteja firme e dourada.</p>
+                        <div class="btn">
+                            <a href="receita/tortadequeijo.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="receitas-card">
+            <div class="card">
+                <a class="linkNormal" href="receita/churros.html" title="Churros">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Churros 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Churros</h3>
+                        <p>São conhecidos por sua textura crocante por fora e macia por dentro. A massa é feita com farinha, água, e uma pitada de sal, e é frita em óleo quente até ficar dourada e crocante.</p>
+                        <div class="btn">
+                            <a href="receita/churros.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/tiramisu.html" title="Tiramisu">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Tiramisu 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Tiramisu</h3>
+                        <p>É uma sobremesa italiana famosa por sua combinação de sabores ricos e texturas leves.
+                        A sobremesa é composta por camadas de biscoitos savoiardi embebidos em café expresso forte e, às vezes, em licor, como marsala ou rum.</p>
+                        <div class="btn">
+                            <a href="receita/tiramisu.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/quindim.html" title="Quindim">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Quindim 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Quindim</h3>
+                        <p>O quindim é uma sobremesa tradicional brasileira, especialmente conhecida por seu sabor doce e textura cremosa.</p>
+                        <div class="btn">
+                            <a href="receita/quindim.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="receitas-card">
+            <div class="card">
+                <a class="linkNormal" href="receita/sorvete.html" title="Sorvete">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Soverte 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Sorvete</h3>
+                        <p>É uma sobremesa gelada e cremosa, feita a partir de uma mistura de leite, creme, açúcar e saborizantes.
+                        O processo de produção do sorvete envolve misturar e congelar, geralmente enquanto se agita, para incorporar ar e obter uma textura leve e cremosa.</p>
+                        <div class="btn">
+                            <a href="receita/sorvete.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/brownie.html" title="Brownie">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Brownie 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Brownie</h3>
+                        <p>É um doce conhecido por sua textura densa e sabor intenso de chocolate.
+                        Ele é essencialmente um bolo, mas com menos farinha, o que o torna mais fudgy e menos aerado do que um bolo tradicional.</p>
+                        <div class="btn">
+                            <a href="receita/brownie.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/pannacotta.html" title="Panna Cotta">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Panna Cotta 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Panna Cotta</h3>
+                        <p>Feita a partir de uma mistura de creme de leite, açúcar e gelatina, é geralmente aromatizada com baunilha.
+                        O creme é aquecido para dissolver o açúcar e a gelatina, depois é despejado em formas individuais e refrigerado até firmar.</p>
+                        <div class="btn">
+                            <a href="receita/pannacotta.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="receitas-card">
+            <div class="card">
+                <a class="linkNormal" href="receita/cremebrulee.html" title="Creme Brûlée">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Creme Brûlée 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Creme Brûleé</h3>
+                        <p>É uma clássica sobremesa francesa feita com creme de leite, gemas de ovo, açúcar e baunilha. Cozido em banho-maria, possui uma textura cremosa e é coberto com uma crosta crocante de açúcar caramelizado. </p>
+                        <div class="btn">
+                            <a href="receita/cremebrulee.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/bolodecenoura.html" title="Bolo de Cenoura">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Bolo de cenoura 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Bolo de cenoura</h3>
+                        <p>É conhecido por seu sabor leve e sua textura úmida, e é uma maneira saborosa de incorporar vegetais na dieta.
+                        O bolo de cenoura é feito com cenouras raladas, que são misturadas com ingredientes básicos como farinha, açúcar, ovos, óleo e fermento em pó.</p>
+                        <div class="btn">
+                            <a href="receita/bolodecenoura.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/cheesecake.html" title="Cheesecake">
+                    <div class="imagem-card">
+                        <img src="images/receitas/cheesecake 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Cheesecake</h3>
+                        <p>É uma sobremesa popular e versátil, que tem uma base de queijo cremoso, geralmente cream cheese, combinado com açúcar e ovos. A receita básica pode ser simplificada com uma crosta de biscoito e é assada até que o recheio esteja firme e suave.</p>
+                        <div class="btn">
+                            <a href="receita/cheesecake.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- enviar receitas -->
+    <section class="enviar-receita">
+        <h2>Sabe de uma receita gostosa? Então envie agora!</h2>
+        <div class="btn-receitas">
+            <button class="button">ENVIAR</button>
+        </div>
+    </section>
+    <!-- rodapé -->
+    <footer class="footer">
+        <div class="footer-top">
+            <img src="images/logo-the-chef-footer.png" alt="">
+            <div class="lista1">
+                <h4>CATEGORIAS</h4>
+                <ul>
+                    <li><a href="nordestina.html">Nordestina</a></li>
+                    <li><a href="sobremesa.html">Sobremesa</a></li>
+                    <li><a href="gardemanger.html">Gado manger</a></li>
+                    <li><a href="massas.html">Masas</a></li>
+                    <li><a href="vegetariano.html">Vegetariano</a></li>
+                </ul>
+            </div>
+            <div class="lista2">
+                <h4>INSTITUCIONAL</h4>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="#categotia">CATEGORIAS</a></li>
+                    <li><a href="home.html">SOBRE-NÓS</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                </ul>
+            </div>
+            <div class="lista3">
+                <h4>CONTATO</h4>
+                <ul>
+                    <li><a href="#">EquipeCompany@gmail.com</a></li>
+                    <li><a href="#">86 9 9999-9999</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer id="contato">
+    <!-- direitos sobre pagina -->
+    <section class="copyrigth">
+        <hr class="divisor">
+        <div class="footer-bottom">
+            <div class="social">
+                <i class='bx bxl-facebook-circle'></i>
+                <i class='bx bxl-instagram-alt'></i>
+                <i class='bx bxl-twitter' ></i>
+            </div>
+            <p>© 2024 The equipe Company. Todos os direitos reservados.</p>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('menuButton').addEventListener('click', function() {
+            document.getElementById('menuMobileLinks').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

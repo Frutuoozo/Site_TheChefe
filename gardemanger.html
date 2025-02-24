@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="categoria.css">
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Categoria - Gago Manger</title>
+</head>
+
+<body>
+    <!-- cabeçalho -->
+    <header class="header">
+        <div class="header-container">
+            <img src="../images/logo-the-chef.png" alt="">
+                <div class="menu-desktop">
+                    <ul>
+                        <li><a href="../home.html" title="Home">Home</a></li>
+                        <li><a href="#contato" title="Contato">Contato</a></li>
+                    </ul>
+                </div>
+            <div class="barra-pesquisa">
+                <input type="text" placeholder="O que você busca?">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+            </div>
+        </div>
+
+        <!--Menu Mobile-->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">☰</label>
+        <nav class="menu">
+            <ul class="menu-lista">
+                <li><a href="home.html" title="pagina home">Home</a></li>
+                <li><a href="nordestina.html" title="nordestina">Nordestina</a></li>
+                <li><a href="sobremesa.html" title="sobremesa">Sobremesa</a></li>
+                <li><a href="gardemanger.html" title="gadomanger">Garde Manger</a></li>
+                <li><a href="massas.html" title="massas">Massas</a></li>
+                <li><a href="vegetariano.html" title="vegetariano">Vegetariano</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <!-- categorias -->
+
+    <section class="categorias" id="categoria">
+        <div class="categorias-box">
+            <a href="sobremesa.html" title="Sobremesas">
+                <div class="box">
+                    <span class="material-symbols-outlined">
+                        cake
+                    </span>
+                    <h3>SOBREMESAS</h3>
+                </div>
+            </a>
+
+            <a href="nordestina.html" title="Nordestina">
+                <div class="box">
+                    <span class="material-symbols-outlined">
+                        skillet
+                    </span>
+                    <h3>NORDESTINA</h3>
+                </div>
+            </a>
+
+            <a href="massas.html" title="Massas">
+                <div class="box">
+                    <span class="material-symbols-outlined">
+                        local_pizza
+                    </span>
+                    <h3>MASSAS</h3>
+                </div>
+            </a>
+
+            <a href="vegetariano.html" title="Vegetariano">
+                <div class="box">
+                    <span class="material-symbols-outlined">
+                        dinner_dining
+                    </span>
+                    <h3>VEGETARIANO</h3>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- secção 1 (imagem e descrição) -->
+    <section class="categoria-banner">
+        <div class="categoria-img">
+            <img src="images/chef-gadomanger.png" alt="" class="img-nordestina">
+        </div>
+        <div class="categoria-text">
+            <h2>Garde Manger</h2>
+            <p>Engloba uma variedade de pratos que servem como introdução a uma refeição ou como acompanhamento de
+                bebidas.
+                Alguns exemplos de entradas são saladas, canapés, torradinhas com patê, batatas. Já os petiscos podem
+                incluir tortinhas de frango, polenta frita com calda de goiaba picante.
+            </p>
+        </div>
+    </section>
+
+    <!-- sobremesas cards -->
+    <section class="receitas">
+        <h2>Receitas recomendadas</h2>
+        
+        <div class="receitas-card">
+            <div class="card">
+                <a class="linkNormal" href="receita/Bruschetta.html" title="Bruschetta">
+                    <img src="images/receitas/Bruschetta 1.png" alt="">
+                        <div class="descricao">
+                        <h3>Bruschetta</h3>
+                        <p>É um aperitivo italiano feito com fatias de pão tostado cobertas por uma mistura de tomates
+                            frescos, manjericão, alho e azeite de oliva. Existem várias variações que incluem ingredientes
+                            adicionais como queijo e presunto.</p>
+                        <div class="btn">
+                            <a href="receita/Bruschetta.html" class="btn-acaraje">LER MAIS</a>
+                        </div>
+                </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/Guacamole.html" title="Guacamole">
+                <div class="imagem-card">
+                        <img src="images/receitas/Guacamole 1.png" alt="">
+                                        </div>
+                                        <div class="descricao">
+                        <h3>Guacamole</h3>
+                        <p>É um molho mexicano feito com abacate amassado e misturado a ingredientes como tomate,
+                            cebola, coentro, suco de limão e sal. É servido como acompanhamento ou em pratos como tacos e
+                            burritos.</p>
+                        <div class="btn">
+                            <a href="receita/Guacamole.html">LER MAIS</a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/BOLINHO DE BACALHAU.html" title="Bolinho de Bacalhau">
+                <div class="imagem-card">
+                        <img src="images/receitas/bolinho de bacalhau.png" alt="">
+                        </div>
+                    <div class="descricao">
+                        <h3>Bolinho de bacalhau</h3>
+                        <p>É um clássico da culinária portuguesa, feito com bacalhau dessalgado e desfiado, batata cozida e
+                            amassada, cebola picada, alho picado, azeite, farinha de trigo e ovos.
+                        </p>
+                        <div class="btn">
+                            <a href="receita/BOLINHO DE BACALHAU.html">LER MAIS</a>
+                        </div>
+                     </div>
+                    </a>
+            </div>
+        </div>
+        
+        <div class="receitas-card">
+            <div class="card">
+                <a class="linkNormal" href="receita/DADINHO.html" title="Dadinho de Tapioca">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Dadinho de tapioca com molho de pimenta 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Dadinho de tapioca</h3>
+                        <p>É uma receita tradicional brasileira que combina a textura macia do dadinho de tapioca com o
+                            sabor picante do molho de pimenta.</p>
+                        <div class="btn">
+                            <a href="receita/DADINHO.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/Camarão Empanado e Molho Tártaro.html" title="Camarão Empanado">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Camarão 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Camarão empanado</h3>
+                        <p>É um prato delicioso e popular que combina a crocância do camarão empanado com o sabor fresco e
+                            ácido do molho tártaro. O camarão é geralmente empanado com farinha de trigo, ovo e farinha de
+                            rosca, e frito até ficar dourado e crocante.</p>
+                        <div class="btn">
+                            <a href="receita/Camarão Empanado e Molho Tártaro.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/miniquiche-de-alho-poro.html" title="Mini Quiche de Alho-Poró">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Mini quiche 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Mini quichê de alho-poró</h3>
+                        <p>lanche rápido e saboroso. Essa receita é perfeita para servir em festas, eventos ou até mesmo no
+                            dia a dia. A combinação do alho-poró com o recheio cremoso e a massa crocante é simplesmente
+                            irresistível.</p>
+                        <div class="btn">
+                            <a href="receita/miniquiche-de-alho-poro.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="receitas-card">
+            <div class="card">
+                <a class="linkNormal" href="receita/ESPETINHO CAPRESE.html" title="Espetinho Caprese">
+                    <div class="imagem-card">
+                        <img src="images/receitas/espetinho caprese.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Espetinho Caprese</h3>
+                        <p>É um clássico da culinária italiana, conhecido por sua simplicidade e sabor fresco. Ele é feito
+                            com tomate-cereja, queijo mussarela de búfala e folhas de manjericão, que são espetados em
+                            palitos.</p>
+                        <div class="btn">
+                            <a href="receita/ESPETINHO CAPRESE.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/PALITOS DE CENOURA.html" title="Palitinhos de Cenoura">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Palitinhos de cenoura e pepino com hummus 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Palitinhos de cenoura</h3>
+                        <p>É um petisco leve e saudável, perfeito para acompanhar um drink ou servir como aperitivo. A
+                            combinação crocante das cenouras e pepinos com o sabor intenso e cremoso do hummus é
+                            simplesmente irresistível.</p>
+                        <div class="btn">
+                            <a href="receita/PALITOS DE CENOURA.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/PASTEIS.html" title="Pastéis de Queijo">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Pastéis de Carne ou queijo 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Pastéis de queijo</h3>
+                        <p>Conhecidos por sua simplicidade e sabor irresistível. As receitas geralmente levam farinha de
+                            trigo, queijo, manteiga ou margarina, ovoe leite.</p>
+                        <div class="btn">
+                            <a href="receita/PASTEIS.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="receitas-card">
+            <div class="card">
+                <a class="linkNormal" href="receita/Rolinho de primavera.html" title="Rolinho Primavera">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Rolinho 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Rolinho Primavera</h3>
+                        <p>É feito com uma massa fina, geralmente de farinha de arroz ou trigo, que é recheada com diversos
+                            ingredientes, como legumes, carne, frango ou camarão.</p>
+                        <div class="btn">
+                            <a href="receita/Rolinho de primavera.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/torradacompate.html" title="Torradas com Patê">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Torradas 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Torradas com Patê</h3>
+                        <p>São um clássico da culinária, simples de preparar e sempre agradam a todos.
+                            A combinação perfeita de pão crocante, patê saboroso e um toque de criatividade, como um toque
+                            de pimenta ou ervas frescas, faz dessa receita um sucesso absoluto.</p>
+                        <div class="btn">
+                            <a href="receita/torradacompate.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/ESFIRRAS.html" title="Esfiha">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Esfiha 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Esfiha</h3>
+                        <p>É feita com massa de pão e recheio de carne moída, mas existem diversas variações com outros
+                            recheios, como queijo, frango, legumes e até mesmo doces.</p>
+                        <div class="btn">
+                            <a href="receita/ESFIRRAS.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- enviar receitas -->
+    <section class="enviar-receita">
+        <h2>Sabe de uma receita gostosa? Então envie agora!</h2>
+        <div class="btn-receitas">
+            <button class="button">ENVIAR</button>
+        </div>
+    </section>
+    <!-- rodapé -->
+    <footer class="footer" id="contato">
+        <div class="footer-top">
+            <img src="images/logo-the-chef-footer.png" alt="">
+            <div class="lista1">
+                <h4>CATEGORIAS</h4>
+                <ul>
+                    <li><a href="nordestina.html">Nordestina</a></li>
+                    <li><a href="sobremesa.html">Sobremesa</a></li>
+                    <li><a href="gardemanger.html">Gado manger</a></li>
+                    <li><a href="massas.html">Masas</a></li>
+                    <li><a href="vegetariano.html">Vegetariano</a></li>
+                </ul>
+            </div>
+            <div class="lista2">
+                <h4>INSTITUCIONAL</h4>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="#categoria">CATEGORIAS</a></li>
+                    <li><a href="home.html">SOBRE-NÓS</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                </ul>
+            </div>
+            <div class="lista3">
+                <h4>CONTATO</h4>
+                <ul>
+                    
+                    <li><a href="#">EquipeCompany@gmail.com</a></li>
+                    <li><a href="#">86 9 9999-9999</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <!-- direitos sobre pagina -->
+    <section class="copyrigth">
+        <hr class="divisor">
+        <div class="footer-bottom">
+            <div class="social">
+                <i class='bx bxl-facebook-circle'></i>
+                <i class='bx bxl-instagram-alt'></i>
+                <i class='bx bxl-twitter'></i>
+            </div>
+            <p>© 2024 The equipe Company. Todos os direitos reservados.</p>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('menuButton').addEventListener('click', function() {
+            document.getElementById('menuMobileLinks').classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>

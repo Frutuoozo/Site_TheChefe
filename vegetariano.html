@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="categoria.css">
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Categoria - Vegetariano</title>
+</head>
+
+<body>
+    <!-- cabeçalho -->
+    <header class="header">
+        <div class="header-container">
+            <img src="../images/logo-the-chef.png" alt="">
+                <div class="menu-desktop">
+                    <ul>
+                        <li><a href="../home.html" title="Home">Home</a></li>
+                        <li><a href="#contato" title="Contato">Contato</a></li>
+                    </ul>
+                </div>
+            <div class="barra-pesquisa">
+                <input type="text" placeholder="O que você busca?">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+            </div>
+        </div>
+
+        <!--Menu Mobile-->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">☰</label>
+        <nav class="menu">
+            <ul class="menu-lista">
+                <li><a href="home.html" title="pagina home">Home</a></li>
+                <li><a href="nordestina.html" title="nordestina">Nordestina</a></li>
+                <li><a href="sobremesa.html" title="sobremesa">Sobremesa</a></li>
+                <li><a href="gardemanger.html" title="gadomanger">Garde Manger</a></li>
+                <li><a href="massas.html" title="massas">Massas</a></li>
+                <li><a href="vegetariano.html" title="vegetariano">Vegetariano</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    
+    <!-- categorias sobremesa -->
+
+    <section class="categorias" id="categotia">
+        <a href="sobremesa.html" title="Sobremesas">
+            <div class="categorias-box">
+                <div class="box">
+                    <span class="material-symbols-outlined">
+                        cake
+                    </span>
+                    <h3>SOBREMESAS</h3>
+                </div>
+        </a>
+
+            <a href="nordestina.html" title="Nordestina">
+                <div class="box">
+                    <span class="material-symbols-outlined">
+                        skillet
+                    </span>
+                    <h3>NORDESTINA</h3>
+                </div>
+            </a>
+
+            <a href="gardemanger.html" title="Garde Manger">
+                <div class="box">
+                    <span class="material-symbols-outlined">
+                        bakery_dining
+                    </span>
+                    <h3>GARDE MANGER</h3>
+                </div>
+            </a>
+
+            <a href="massas.html" title="Massas">
+                <div class="box">
+                    <span class="material-symbols-outlined">
+                        local_pizza
+                    </span>
+                    <h3>MASSAS</h3>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- secção 1 (imagem e descrição) -->
+    <section class="categoria-banner">
+        <div class="categoria-img">
+            <img src="images/chef-vegetariano.png" alt="" class="img-nordestina">
+        </div>
+        <div class="categoria-text">
+            <h2>Vegetariano</h2>
+            <p>Engloba diversas dietas que excluem carne, aves e peixes, com diferentes níveis de restrições alimentares. Cada tipo tem suas próprias motivações, como ética, saúde ou religião.
+            A dieta vegetariana oferece diversos benefícios à saúde, como redução do risco de doenças cardíacas
+            </p>
+        </div>
+    </section>
+    <!-- sobremesas cards -->
+    <section class="receitas">
+        <h2>Receitas recomendadas</h2>
+
+        <div class="receitas-card">
+            <div class="card">
+                <a class="linkNormal" href="receita/Moquecabanana-da-terra.html" title="Moqueca de banana">
+                    <img src="images/receitas/Moqueca de Banana-da-terra 1.png" alt="">
+                    <div class="descricao">
+                        <h3>Moqueca de banana</h3>
+                        <p>É um prato rico em sabores e história, com influências indígenas, africanas e portuguesas. Uma receita popular é a da Nestlé, que utiliza banana-da-terra, pimentões, leite de coco e é preparada no GURU da Tramontina.</p>
+                        <div class="btn">
+                            <a href="receita/Moquecabanana-da-terra.html" class="btn-acaraje">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/Cuscuzmarroquino.html" title="Cuscuz de legumes">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Cuscuz de legumes 2.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Cuscuz de legumes</h3>
+                        <p>A combinação de vegetais frescos como pimentão, cenoura e abobrinha com o grão-de-bico proporciona uma boa dose de proteínas vegetais e fibras.</p>
+                        <div class="btn">
+                            <a href="receita/Cuscuzmarroquino.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/Quibebedeabóbora.html" title="Quibebe de Abóbora">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Quibebe de Abóbora 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Quibebe de Abóbora</h3>
+                        <p>É um prato tradicional da cozinha brasileira, feito com abóbora de pescoço. Ele é um purê rústico, macio e úmido, com um toque adocicado.</p>
+                        <div class="btn">
+                            <a href="receita/Quibebedeabóbora.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="receitas-card">
+            <div class="card">
+                <a class="linkNormal" href="receita/EscondidinhodeAbóbora.html" title="Escondidinho de Abóbora">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Escondidinho de Abóbora 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Escondidinho de Abóbora</h3>
+                        <p>É um prato delicioso e popular, com diversas variações. As informações que encontrei indicam que ele é feito com carne moída e purê de abóbora, sendo uma ótima opção para um jantar reconfortante.</p>
+                        <div class="btn">
+                            <a href="receita/EscondidinhodeAbóbora.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/Feijoadavegana.html" title="Feijoada Vegana">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Feijoada Vegana 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Feijoada Vegana</h3>
+                        <p>É uma versão deliciosa e saudável do prato tradicional brasileiro, feita com ingredientes vegetais. Ela pode ser preparada com legumes, tofu, carne vegetal e até cogumelos, oferecendo uma experiência saborosa e nutritiva.</p>
+                        <div class="btn">
+                            <a href="receita/Feijoadavegana.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/Vatapavegano.html" title="Vatapá Vegano">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Vatapá Vegano 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Vatapá Vegano</h3>
+                        <p>Uma versão deliciosa e nutritiva do tradicional prato baiano, feito com ingredientes vegetais. O Vatapá Vegano é feito com castanhas de caju, amendoim e leite de coco, o que o torna extremamente nutritivo.</p>
+                        <div class="btn">
+                            <a href="receita/Vatapavegano.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="receitas-card">
+            <div class="card">
+                <a class="linkNormal" href="receita/Cuscuzmarroquino.html" title="Caruru de Quiabo">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Caruru de Quiabo 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Caruru de Quiabo</h3>
+                        <p>É feito com quiabo, camarão seco, azeite de dendê, cebola, alho, amendoim e castanha de caju. O Caruru é uma mistura das origens africanas e indígenas, e é um prato único da culinária baiana.</p>
+                        <div class="btn">
+                            <a href="receita/Cuscuzmarroquino.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/Coxinhadejaca.html" title="Coxinha de jaca">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Coxinha de jaca 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Coxinha de jaca</h3>
+                        <p>É uma versão vegana da tradicional coxinha brasileira, feita com jaca verde como ingrediente principal. A jaca é desfiada e temperada, imitando a textura e o sabor da carne de frango.</p>
+                        <div class="btn">
+                            <a href="receita/Coxinhadejaca.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/Bolinhodearroz.html" title="Bolinho de arroz">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Bolinho de arroz 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Bolinho de arroz</h3>
+                        <p>É feito com arroz, carne de sol dessalgada, pimenta-de-cheiro, pimentão e outros temperos. A receita é tradicionalmente preparada com carne de sol, mas pode ser feita com outros tipos de carne, como frango ou carne bovina.</p>
+                        <div class="btn">
+                            <a href="receita/Bolinhodearroz.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="receitas-card">
+            <a class="linkNormal" href="receita/Quichedequeijo.html" title="Quiche de queijo">
+                <div class="card">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Quiche de queijo 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Quiche de queijo</h3>
+                        <p>É uma torta salgada de origem francesa, feita com uma massa crocante e um recheio cremoso de queijo. A massa geralmente é feita com farinha de trigo, manteiga e ovos, e o recheio é preparado com ovos, leite, queijo e temperos.</p>
+                        <div class="btn">
+                            <a href="receita/Quichedequeijo.html">LER MAIS</a>
+                        </div>
+                    </div>
+            </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/Rocamboledelentilharecheado.html" title="Rocambole de lentilha">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Rocambole de lentilha recheado 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Rocambole de lentilha</h3>
+                        <p>É uma opção deliciosa e saudável para quem busca variar o cardápio com uma refeição vegetariana nutritiva. Ele é feito com uma massa de lentilha cozida e temperada, que é recheada com diversos ingredientes, como legumes, quinoa, especiarias e outros temperos</p>
+                        <div class="btn">
+                            <a href="receita/Rocamboledelentilharecheado.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/Strogonoffvegano.html" title="Strogonoff Vegano">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Strogonoff vegano de grão de bico e palmito 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Strogonoff Vegano</h3>
+                        <p>É uma opção nutritiva para quem busca uma refeição saborosa.
+                            Ele é feito com grão de bico, palmito, cogumelos, cebola, alho, tomate e outros temperos, e pode ser preparado com diferentes métodos, como cozido ou refogado.</p>
+                        <div class="btn">
+                            <a href="receita/Strogonoffvegano.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- enviar receitas -->
+    <section class="enviar-receita">
+        <h2>Sabe de uma receita gostosa? Então envie agora!</h2>
+        <div class="btn-receitas">
+            <button class="button">ENVIAR</button>
+        </div>
+    </section>
+    <!-- rodapé -->
+    <footer class="footer" id="contato">
+        <div class="footer-top">
+            <img src="images/logo-the-chef-footer.png" alt="">
+            <div class="lista1">
+                <h4>CATEGORIAS</h4>
+                <ul>
+                    <li><a href="nordestina.html">Nordestina</a></li>
+                    <li><a href="sobremesa.html">Sobremesa</a></li>
+                    <li><a href="gardemanger.html">Gado manger</a></li>
+                    <li><a href="massas.html">Masas</a></li>
+                    <li><a href="vegetariano.html">Vegetariano</a></li>
+                </ul>
+            </div>
+            <div class="lista2">
+                <h4>INSTITUCIONAL</h4>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="#categoria">CATEGORIAS</a></li>
+                    <li><a href="home.html">SOBRE-NÓS</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                </ul>
+            </div>
+            <div class="lista3">
+                <h4>CONTATO</h4>
+                <ul>
+                    
+                    <li><a href="#">EquipeCompany@gmail.com</a></li>
+                    <li><a href="#">86 9 9999-9999</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer id="contato">
+    <!-- direitos sobre pagina -->
+    <section class="copyrigth">
+        <hr class="divisor">
+        <div class="footer-bottom">
+            <div class="social">
+                <i class='bx bxl-facebook-circle'></i>
+                <i class='bx bxl-instagram-alt'></i>
+                <i class='bx bxl-twitter'></i>
+            </div>
+            <p>© 2024 The equipe Company. Todos os direitos reservados.</p>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('menuButton').addEventListener('click', function() {
+            document.getElementById('menuMobileLinks').classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>

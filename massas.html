@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="categoria.css">
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Categoria - Massas</title>
+</head>
+
+<body>
+    <!-- cabeçalho -->
+    <header class="header">
+        <div class="header-container">
+            <img src="../images/logo-the-chef.png" alt="">
+                <div class="menu-desktop">
+                    <ul>
+                        <li><a href="../home.html" title="Home">Home</a></li>
+                        <li><a href="#contato" title="Contato">Contato</a></li>
+                    </ul>
+                </div>
+            <div class="barra-pesquisa">
+                <input type="text" placeholder="O que você busca?">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+            </div>
+        </div>
+
+        <!--Menu Mobile-->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">☰</label>
+        <nav class="menu">
+            <ul class="menu-lista">
+                <li><a href="home.html" title="pagina home">Home</a></li>
+                <li><a href="nordestina.html" title="nordestina">Nordestina</a></li>
+                <li><a href="sobremesa.html" title="sobremesa">Sobremesa</a></li>
+                <li><a href="gardemanger.html" title="gadomanger">Garde Manger</a></li>
+                <li><a href="massas.html" title="massas">Massas</a></li>
+                <li><a href="vegetariano.html" title="vegetariano">Vegetariano</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    
+
+
+    <!-- categorias sobremesa -->
+
+    <section class="categorias" id="categoria">
+        <div class="categorias-box">
+            <a href="sobremesa.html" title="Sobremesas">
+                <div class="box">
+                    <span class="material-symbols-outlined">
+                        cake
+                    </span>
+                    <h3>SOBREMESAS</h3>
+                </div>
+            </a>
+
+            <a href="nordestina.html" title="Nordestina">
+                <div class="box">
+                    <span class="material-symbols-outlined">
+                        skillet
+                    </span>
+                    <h3>NORDESTINA</h3>
+                </div>
+            </a>
+
+            <a href="gardemanger.html" title="Garde Manger">
+                <div class="box">
+                    <span class="material-symbols-outlined">
+                        bakery_dining
+                    </span>
+                    <h3>GARDE MANGER</h3>
+                </div>
+            </a>
+
+            <a href="vegetariano.html" title="Vegetariano">
+                <div class="box">
+                    <span class="material-symbols-outlined">
+                        dinner_dining
+                    </span>
+                    <h3>VEGETARIANO</h3>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- secção 1 (imagem e descrição) -->
+    <section class="categoria-banner">
+        <div class="categoria-img">
+            <img src="images/chef-massas.png" alt="" class="img-nordestina">
+        </div>
+        <div class="categoria-text">
+            <h2>Massas</h2>
+            <p>É um universo de sabores e formatos, com uma base de farinha, água e ovos, que pode variar com outros
+                grãos. De espaguete a ravioli, os formatos são inúmeros, assim como os molhos, desde tomate e creme de
+                leite até pesto e carne. 
+                Versátil, a massa se adapta a diferentes culturas e paladares.</p>
+        </div>
+    </section>
+
+    <!-- sobremesas cards -->
+    <section class="receitas">
+        <h2>Receitas recomendadas</h2>
+
+        <div class="receitas-card">
+            <div class="card">
+                <a class="linkNormal" href="receita/Rondellidepresuntoequeijo.html" title="Rondelli de presunto e queijo">
+                    <img src="images/receitas/Rondelli de presunto e queijo 1.png" alt="">
+                    <div class="descricao">
+                        <h3>Rondelli</h3>
+                        <p>É um prato clássico e delicioso, com diversas receitas disponíveis online. As informações que
+                            encontrei indicam que o prato geralmente leva massa para lasanha, presunto, queijo
+                            mussarela, queijo ralado e molho branco. </p>
+                        <div class="btn">
+                            <a href="receita/Rondellidepresuntoequeijo.html" class="btn-acaraje">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/Carbonaracommacarrão.html" title="Carbonara com macarrão">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Carbonara com macarrão instantâneo 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Carbonara com macarrão</h3>
+                        <p>É uma versão mais rápida e simples do clássico italiano. Ela é feita com gema de
+                            ovo, sal, pimenta e bacon. Algumas receitas também incluem queijo parmesão e azeite.</p>
+                        <div class="btn">
+                            <a href="receita/Carbonaracommacarrão.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/Talharimaomolhodebacalhau.html" title="Talharim com molho de bacalhau">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Ensopado de Camarão 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Talharim com molho</h3>
+                        <p>É uma versão mais rápida e simples do clássico italiano. Ela é feita com gema de
+                            ovo, sal, pimenta e bacon. Algumas receitas também incluem queijo parmesão e azeite.
+                        </p>
+                        <div class="btn">
+                            <a href="receita/Talharimaomolhodebacalhau.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="receitas-card">
+            <div class="card">
+                <a class="linkNormal" href="receita/Panquecadeespinafre.html" title="Panqueca de espinafre">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Panqueca de espinafre 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Panqueca de espinafre</h3>
+                        <p>É uma receita deliciosa e nutritiva, com diversas variações disponíveis online. As informações
+                            que encontrei indicam que a receita geralmente leva farinha de trigo, leite ou
+                            água, ovos, sal e espinafre.</p>
+                        <div class="btn">
+                            <a href="receita/Panquecadeespinafre.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/Espagueteaocremedebrocolis.html" title="Espaguete ao creme de brócolis">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Espaguete ao creme de brócolis 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Espaguete ao creme</h3>
+                        <p>É uma sobremesa clássica e deliciosa, com textura cremosa e aerada.
+                            È uma sobremesa versátil e pode ser preparada de diversas maneiras, com diferentes tipos de
+                            chocolate e ingredientes adicionais.</p>
+                        <div class="btn">
+                            <a href="receita/Espagueteaocremedebrocolis.html">LER MAIS</a>
+                        </div>
+                </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/Macarrãoaofornocomcreme.html" title="Macarrão ao forno com creme">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Macarrão ao forno com creme 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Macarrão ao forno</h3>
+                        <p>Prato rápido, prático e econômico que pode ser servido em um almoço ou jantar. Ele
+                            leva presunto e queijo entre os ingredientes principais. Algumas receitas também
+                            incluem frango e requeijão.</p>
+                        <div class="btn">
+                            <a href="receita/Macarrãoaofornocomcreme.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="receitas-card">
+            <div class="card">
+                <a class="linkNormal" href="receita/Noquedebanana-da-terra.html" title="Nhoque de banana-da-terra">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Nhoque de banana.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Nhoque de banana</h3>
+                        <p>Um prato delicioso e fácil de fazer. Você pode encontrar receitas com 3 bananas-da-terra,amido de
+                            milho, queijo meia-cura ralado,farinha de trigo, ovo, manteiga, saborizante,sementes de chia e
+                            água.</p>
+                        <div class="btn">
+                            <a href="receita/Noquedebanana-da-terra.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/Ravioliaomolhodenozes.html" title="Ravioli ao molho de nozes">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Ravioli ao molho de nozes 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Ravioli de nozes</h3>
+                        <p>É um prato delicioso que combina a massa fresca do ravioli com um molho cremoso e saboroso de
+                            nozes. As receitas variam, mas geralmente incluem queijo gorgonzola, nata ou creme de leite
+                            fresco, parmesão ralado e nozes picadas.</p>
+                        <div class="btn">
+                            <a href="receita/Ravioliaomolhodenozes.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/Conchiglionedeespinafre.html" title="Conchiglione de espinafre">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Conchiglione de espinafre e ricota 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Conchiglione</h3>
+                        <p>É um prato delicioso e fácil de fazer. Ele é feito com conchiglione, um tipo de massa italiana em
+                            formato de concha, recheado com espinafre e ricota.</p>
+                        <div class="btn">
+                            <a href="receita/Conchiglionedeespinafre.html">LER MAIS</a>
+                        </div>
+                    </div>
+                    </div>
+                </a>
+        </div>
+
+        <div class="receitas-card">
+            <div class="card">
+                <a class="linkNormal" href="receita/Yakisobasimplesdelegumes.html" title="Yakissoba simples de legumes">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Yakissoba de carne e legumes 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Yakissoba</h3>
+                        <p>É um prato delicioso e fácil de fazer. Ele é feito com macarrão para yakissoba, carne em
+                            tiras (como alcatra, patinho ou file mignon), legumes (como cebola, cenoura, brócolis,
+                            couve-flor e cogumelos) e um molho especial. </p>
+                        <div class="btn">
+                            <a href="receita/Yakisobasimplesdelegumes.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/Macarrãofusillicomcosteladesfiada.html" title="Macarrão fusilli com costela desfiada">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Fusilli com costela na pressão 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Fusilli</h3>
+                        <p>É um prato delicioso e fácil de preparar. Ele é feito com fusilli, um tipo de massa italiana em
+                            formato de espiral, e costela bovina cozida na panela de pressão.</p>
+                        <div class="btn">
+                            <a href="receita/Macarrãofusillicomcosteladesfiada.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card">
+                <a class="linkNormal" href="receita/Raviolicomqueijogouda.html" title="Ravioli com queijo gouda">
+                    <div class="imagem-card">
+                        <img src="images/receitas/Ravioli com queijo gouda e manjericão 1.png" alt="">
+                    </div>
+                    <div class="descricao">
+                        <h3>Ravioli com queijo gouda</h3>
+                        <p>é uma combinação clássica e saborosa, o sabor do gouda, levemente adocicado, se harmoniza
+                            perfeitamente com o aroma intenso do manjericão, criando uma experiência gastronômica única.</p>
+                        <div class="btn">
+                            <a href="receita/Raviolicomqueijogouda.html">LER MAIS</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- enviar receitas -->
+    <section class="enviar-receita">
+        <h2>Sabe de uma receita gostosa? Então envie agora!</h2>
+        <div class="btn-receitas">
+            <button class="button">ENVIAR</button>
+        </div>
+    </section>
+    <!-- rodapé -->
+    <footer class="footer" id="contato">
+        <div class="footer-top">
+            <img src="images/logo-the-chef-footer.png" alt="">
+            <div class="lista1">
+                <h4>CATEGORIAS</h4>
+                <ul>
+                    <li><a href="nordestina.html" title="Nordestina">Nordestina</a></li>
+                    <li><a href="sobremesa.html" title="Sobremesa">Sobremesa</a></li>
+                    <li><a href="gardemanger.html" title="Garde Manger">Garde Manger</a></li>
+                    <li><a href="massas.html" title="Massas">Massas</a></li>
+                    <li><a href="vegetariano.html" title="Vegetariano">Vegetariano</a></li>
+                </ul>
+            </div>
+            <div class="lista2">
+                <h4>INSTITUCIONAL</h4>
+                <ul>
+                    <li><a href="home.html" title="Home">HOME</a></li>
+                    <li><a href="#categoria" title="Categorias">CATEGORIAS</a></li>
+                    <li><a href="home.html" title="Sobre Nós">SOBRE-NÓS</a></li>
+                    <li><a href="#contato" title="Contato">CONTATO</a></li>
+                </ul>
+            </div>
+            <div class="lista3">
+                <h4>CONTATO</h4>
+                <ul>
+                    
+                    <li><a href="#">EquipeCompany@gmail.com</a></li>
+                    <li><a href="#">86 9 9999-9999</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer id="contato">
+    <!-- direitos sobre pagina -->
+    <section class="copyrigth">
+        <hr class="divisor">
+        <div class="footer-bottom">
+            <div class="social">
+                <i class='bx bxl-facebook-circle'></i>
+                <i class='bx bxl-instagram-alt'></i>
+                <i class='bx bxl-twitter'></i>
+            </div>
+            <p>© 2024 The equipe Company. Todos os direitos reservados.</p>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('menuButton').addEventListener('click', function() {
+            document.getElementById('menuMobileLinks').classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
